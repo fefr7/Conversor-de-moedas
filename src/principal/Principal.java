@@ -9,8 +9,8 @@ public class Principal {
     public static void main(String[] args) {
         Funcao moedas = new Funcao();
         FuncaoTemperatura temperatura = new FuncaoTemperatura();
-
-        while (true) {
+        boolean a =true;
+        while (a) {
 
             String opcao = JOptionPane.showInputDialog(null, "Escolha uma opção ", "Menu", JOptionPane.PLAIN_MESSAGE, null, new Object[]{"Conversor de Moeda", "Conversor de Temperatura"}, "Escolha").toString();
 
@@ -26,6 +26,7 @@ public class Principal {
                             System.out.println("Escolha opção Afirmativa");
                         } else {
                             JOptionPane.showMessageDialog(null, "Programa finalizado");
+                            a = false;
                         }
                     } else {
                         JOptionPane.showMessageDialog(null, "Valor inválido");
@@ -42,6 +43,7 @@ public class Principal {
                         if ((resposta == 0) && (checar(input))) {
                         } else {
                             JOptionPane.showMessageDialog(null, "Programa finalizado");
+                            a = false;
                         }
 
                     } else {
