@@ -1,6 +1,6 @@
 # Conversor de moeda - Challenge ONE - Alura
 
-Desafio proposto pela ONE (Oracle Next Education) | Alura de desenvolver um conversor de moedas e Temperatura.  
+Desafio proposto por ONE (Oracle Next Education)  em conjuto com  Alura de desenvolver um conversor de moedas e Temperatura.  
 
 ***
 
